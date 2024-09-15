@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="77">
+  <author>Braeven</author>
+  <version>2.0.0.0</version>
+  <title>
+    <en>Wardrobe Plus - HMG and Friends</en>
+  </title>
+
+  <description>
+    <en>
+<![CDATA[This mod is an example Mod]]>
+    </en>
+  </description>
+
+
+
+  <iconFilename>icon_WardRobePlus_HMG.dds</iconFilename>
+  <multiplayer supported="true" />
+  
+  <extraSourceFiles>
+    <sourceFile filename="WardRobePlus_helper.lua" />
+  </extraSourceFiles>
+ 
+  <clothes>
+  <!--
+    <item type="tShirtM" diffuse="textures/TeeShirtMale_diffuse.dds" mask="textures/TeeShirtMale_mask.dds" icon="textures/TeeShirtMale_icon.dds" />
+    <item type="tShirtF" diffuse="textures/TeeShirtFemale_diffuse.dds" mask="textures/TeeShirtFemale_mask.dds" icon="textures/TeeShirtFemale_icon.dds" />
+    <item type="poloShirt" diffuse="textures/PoloShirt_diffuse.dds" mask="textures/PoloShirt_mask.dds" icon="textures/PoloShirt_icon.dds" />
+    <item type="sweater" diffuse="textures/Sweater_diffuse.dds" mask="textures/Sweater_mask.dds" icon="textures/Sweater_icon.dds" />
+    <item type="hoodie" diffuse="textures/Hoodie_diffuse.dds" mask="textures/Hoodie_mask.dds" icon="textures/Hoodie_icon.dds" />
+    <item type="ballCap" diffuse="textures/Ballcap_diffuse.dds" mask="textures/Ballcap_mask.dds" icon="textures/Ballcap_icon.dds" />
+    <item type="beanie" diffuse="textures/Beanie_diffuse.dds" mask="textures/Beanie_mask.dds" icon="textures/Beanie_icon.dds" />
+    <item type="militia" diffuse="textures/Militia_diffuse.dds" mask="textures/Militia_mask.dds" icon="textures/Militia_icon.dds" />
+    <item type="vintage" diffuse="textures/Vintage_diffuse.dds" mask="textures/Vintage_mask.dds" icon="textures/Vintage_icon.dds" />
+    <item type="Cowboy" diffuse="textures/Cowboy_diffuse.dds" mask="textures/Cowboy_mask.dds" icon="textures/Cowboy_icon.dds" />
+    <item type="OUTBACK" diffuse="textures/Outback_diffuse.dds" mask="textures/Outback_mask.dds" icon="textures/Outback_icon.dds" />
+    <item type="FISHER" diffuse="textures/Fisher_diffuse.dds" mask="textures/Fisher_mask.dds" icon="textures/Fisher_icon.dds" />
+    <item type="Aviator" diffuse="textures/AviatorJacket_diffuse.dds" mask="textures/AviatorJacket_mask.dds" icon="textures/AviatorJacket_icon.dds" />
+    <item type="WARNINGVEST" diffuse="textures/WarningVest_diffuse.dds" mask="textures/WarningVest_mask.dds" icon="textures/WarningVest_icon.dds" />
+    <item type="WORKJACKET" diffuse="textures/WorkJacket_diffuse.dds" mask="textures/WorkJacket_mask.dds" icon="textures/WorkJacket_icon.dds" />
+    <item type="WINDBREAKER" diffuse="textures/WindBreaker_diffuse.dds" mask="textures/WindBreaker_mask.dds" icon="textures/WindBreaker_icon.dds" />
+    <item type="MOTIONJACKET" diffuse="textures/MotionJacket_diffuse.dds" mask="textures/MotionJacket_mask.dds" icon="textures/MotionJacket_icon.dds" />
+    <item type="MOTION2020JACKET" diffuse="textures/Motion2020Jacket_diffuse.dds" mask="textures/Motion2020Jacket_mask.dds" icon="textures/Motion2020Jacket_icon.dds" />
+    <item type="CONCRETEJACKET" diffuse="textures/ConcreteJacket_diffuse.dds" mask="textures/ConcreteJacket_mask.dds" icon="textures/ConcreteJacket_icon.dds" />
+    <item type="SLIMCOAT" diffuse="textures/SlimCoat_diffuse.dds" mask="textures/SlimCoat_mask.dds" icon="textures/SlimCoat_icon.dds" />
+    <item type="MOTIONPANTS" diffuse="textures/MotionPants_diffuse.dds" mask="textures/MotionPants_mask.dds" icon="textures/MotionPants_icon.dds" />
+    <item type="MOTION2020PANTS" diffuse="textures/Motion2020Pants_diffuse.dds" mask="textures/Motion2020Pants_mask.dds" icon="textures/Motion2020Pants_icon.dds" />
+    <item type="CONCRETEPANTS" diffuse="textures/ConcretePants_diffuse.dds" mask="textures/ConcretePants_mask.dds" icon="textures/ConcretePants_icon.dds" />
+    <item type="LEATHERPANTS" diffuse="textures/LeatherPants_diffuse.dds" mask="textures/LeatherPants_mask.dds" icon="textures/LeatherPants_icon.dds" />
+    <item type="EQUESTRIANPANTS" diffuse="textures/EquestrianPants_diffuse.dds" mask="textures/EquestrianPants_mask.dds" icon="textures/EquestrianPants_icon.dds" />
+    <item type="CHINOS" diffuse="textures/Chinos_diffuse.dds" mask="textures/Chinos_mask.dds" icon="textures/Chinos_icon.dds" />
+    <item type="CARGOPANTS" diffuse="textures/CargoPants_diffuse.dds" mask="textures/CargoPants_mask.dds" icon="textures/CargoPants_icon.dds" />
+    <item type="JEANS" diffuse="textures/Jeans_diffuse.dds" mask="textures/Jeans_mask.dds" icon="textures/Jeans_icon.dds" />
+    <item type="VEST" diffuse="textures/Vest_diffuse.dds" mask="textures/Vest_mask.dds" icon="textures/Vest_icon.dds" />
+    <item type="PuffJacket" diffuse="textures/PuffJacket_diffuse.dds" mask="textures/PuffJacket_mask.dds" icon="textures/PuffJacket_icon.dds" />
+    <item type="PuffyJacketFeMale" diffuse="textures/PuffyJacketFemale_diffuse.dds" mask="textures/PuffyJacketFemale_mask.dds" icon="textures/PuffyJacketFemale_icon.dds" />
+    <item type="PlaidShirtMale" diffuse="textures/PlaidShirtMale_diffuse.dds" mask="textures/PlaidShirtMale_mask.dds" icon="textures/PlaidShirtMale_icon.dds" />
+    <item type="PlaidShirtFeMale" diffuse="textures/PlaidShirtFemale_diffuse.dds" mask="textures/PlaidShirtFemale_mask.dds" icon="textures/PlaidShirtFemale_icon.dds" />
+    <item type="LeatherJacket" diffuse="textures/LeatherJacket_diffuse.dds" mask="textures/LeatherJacket_mask.dds" icon="textures/LeatherJacket_icon.dds" />
+    <item type="DenimJacket" diffuse="textures/DenimJacket_diffuse.dds" mask="textures/DenimJacket_mask.dds" icon="textures/DenimJacket_icon.dds" />
+    <item type="DeckJacketMALE" diffuse="textures/DeckJacket_diffuse.dds" mask="textures/DeckJacket_mask.dds" icon="textures/DeckJacket_icon.dds" />
+    <item type="WoolCoatFeMALE" diffuse="textures/WoolCoat_diffuse.dds" mask="textures/WoolCoat_mask.dds" icon="textures/WoolCoat_icon.dds" />
+    -->
+
+    <!-- Scorpions Edge -->
+    <item type="tShirtM" diffuse="textures/ScorpionsEdge/TeeShirtMale_diffuse.dds" mask="textures/ScorpionsEdge/TeeShirtMale_mask.dds" icon="textures/ScorpionsEdge/TeeShirtMale_icon.dds" />
+    <item type="tShirtF" diffuse="textures/ScorpionsEdge/TeeShirtFemale_diffuse.dds" mask="textures/ScorpionsEdge/TeeShirtFemale_mask.dds" icon="textures/ScorpionsEdge/TeeShirtFemale_icon.dds" />
+
+    <!-- HMG -->
+    <item type="tShirtM" diffuse="textures/HMG/TeeShirtMale_diffuse.dds" mask="textures/HMG/TeeShirtMale_mask.dds" icon="textures/HMG/TeeShirtMale_icon.dds" />
+    <item type="tShirtF" diffuse="textures/HMG/TeeShirtFemale_diffuse.dds" mask="textures/HMG/TeeShirtFemale_mask.dds" icon="textures/HMG/TeeShirtFemale_icon.dds" />
+
+    <!-- LadyMetal -->
+    <item type="tShirtM" diffuse="textures/LadyMetal/TeeShirtMale_HUSH_diffuse.dds" mask="textures/LadyMetal/TeeShirtMale_HUSH_mask.dds" icon="textures/LadyMetal/TeeShirtMale_HUSH_icon.dds" />
+    <item type="tShirtF" diffuse="textures/LadyMetal/TeeShirtFemale_HUSH_diffuse.dds" mask="textures/LadyMetal/TeeShirtFemale_HUSH_mask.dds" icon="textures/LadyMetal/TeeShirtFemale_HUSH_icon.dds" />
+    <item type="tShirtM" diffuse="textures/LadyMetal/TeeShirtMale_GE_diffuse.dds" mask="textures/LadyMetal/TeeShirtMale_GE_mask.dds" icon="textures/LadyMetal/TeeShirtMale_GE_icon.dds" />
+    <item type="tShirtF" diffuse="textures/LadyMetal/TeeShirtFemale_GE_diffuse.dds" mask="textures/LadyMetal/TeeShirtFemale_GE_mask.dds" icon="textures/LadyMetal/TeeShirtFemale_GE_icon.dds" />
+    <item type="tShirtM" diffuse="textures/LadyMetal/TeeShirtMale_Cancer_diffuse.dds" mask="textures/LadyMetal/TeeShirtMale_Cancer_mask.dds" icon="textures/LadyMetal/TeeShirtMale_Cancer_icon.dds" />
+    <item type="tShirtF" diffuse="textures/LadyMetal/TeeShirtFemale_Cancer_diffuse.dds" mask="textures/LadyMetal/TeeShirtFemale_Cancer_mask.dds" icon="textures/LadyMetal/TeeShirtFemale_Cancer_icon.dds" />
+
+    <!-- MrSealyP -->
+    <item type="tShirtM" diffuse="textures/MrSealyP/TeeShirtMale_FDA_diffuse.dds" mask="textures/MrSealyP/TeeShirtMale_FDA_mask.dds" icon="textures/MrSealyP/TeeShirtMale_FDA_icon.dds" />
+    <item type="tShirtF" diffuse="textures/MrSealyP/TeeShirtFemale_FDA_diffuse.dds" mask="textures/MrSealyP/TeeShirtFemale_FDA_mask.dds" icon="textures/MrSealyP/TeeShirtFemale_FDA_icon.dds" />
+    <item type="tShirtM" diffuse="textures/MrSealyP/TeeShirtMale_MRS_diffuse.dds" mask="textures/MrSealyP/TeeShirtMale_MRS_mask.dds" icon="textures/MrSealyP/TeeShirtMale_MRS_icon.dds" />
+    <item type="tShirtF" diffuse="textures/MrSealyP/TeeShirtFemale_MRS_diffuse.dds" mask="textures/MrSealyP/TeeShirtFemale_MRS_mask.dds" icon="textures/MrSealyP/TeeShirtFemale_MRS_icon.dds" />
+    <item type="tShirtM" diffuse="textures/MrSealyP/TeeShirtMale_MSP_diffuse.dds" mask="textures/MrSealyP/TeeShirtMale_MSP_mask.dds" icon="textures/MrSealyP/TeeShirtMale_MSP_icon.dds" />
+    <item type="tShirtF" diffuse="textures/MrSealyP/TeeShirtFemale_MSP_diffuse.dds" mask="textures/MrSealyP/TeeShirtFemale_MSP_mask.dds" icon="textures/MrSealyP/TeeShirtFemale_MSP_icon.dds" />
+    <item type="tShirtM" diffuse="textures/MrSealyP/TeeShirtMale_GC_diffuse.dds" mask="textures/MrSealyP/TeeShirtMale_GC_mask.dds" icon="textures/MrSealyP/TeeShirtMale_GC_icon.dds" />
+    <item type="tShirtF" diffuse="textures/MrSealyP/TeeShirtFemale_GC_diffuse.dds" mask="textures/MrSealyP/TeeShirtFemale_GC_mask.dds" icon="textures/MrSealyP/TeeShirtFemale_GC_icon.dds" />
+    <item type="tShirtM" diffuse="textures/MrSealyP/TeeShirtMale_UND_diffuse.dds" mask="textures/MrSealyP/TeeShirtMale_UND_mask.dds" icon="textures/MrSealyP/TeeShirtMale_UND_icon.dds" />
+    <item type="tShirtF" diffuse="textures/MrSealyP/TeeShirtFemale_UND_diffuse.dds" mask="textures/MrSealyP/TeeShirtFemale_UND_mask.dds" icon="textures/MrSealyP/TeeShirtFemale_UND_icon.dds" />
+    <item type="tShirtM" diffuse="textures/MrSealyP/TeeShirtMale_CX_diffuse.dds" mask="textures/MrSealyP/TeeShirtMale_CX_mask.dds" icon="textures/MrSealyP/TeeShirtMale_CX_icon.dds" />
+    <item type="tShirtF" diffuse="textures/MrSealyP/TeeShirtFemale_CX_diffuse.dds" mask="textures/MrSealyP/TeeShirtFemale_CX_mask.dds" icon="textures/MrSealyP/TeeShirtFemale_CX_icon.dds" />
+    <item type="tShirtM" diffuse="textures/MrSealyP/TeeShirtMale_WJ_diffuse.dds" mask="textures/MrSealyP/TeeShirtMale_WJ_mask.dds" icon="textures/MrSealyP/TeeShirtMale_WJ_icon.dds" />
+    <item type="tShirtF" diffuse="textures/MrSealyP/TeeShirtFemale_WJ_diffuse.dds" mask="textures/MrSealyP/TeeShirtFemale_WJ_mask.dds" icon="textures/MrSealyP/TeeShirtFemale_WJ_icon.dds" />
+  </clothes>
+</modDesc>
